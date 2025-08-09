@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+body {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .highlight-tension {
+    background-color: #fef08a;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: 500;
+    border: 1px solid #fbbf24;
+  }
+  
+  .highlight-absolutism {
+    background-color: #dbeafe;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: 500;
+    border: 1px solid #3b82f6;
+  }
+  
+  .highlight-inversion {
+    background-color: #fecaca;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: 500;
+    border: 1px solid #ef4444;
+  }
+  
+  .loading {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  .spinner {
+    animation: spin 1s linear infinite;
+  }
